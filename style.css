@@ -665,7 +665,7 @@ input:checked + label:before {
   }
 .jogos{
   width: 65vw;
-  height: 30vh;
+  min-height: 35vh;
 }
 .switch {
   position: relative;
@@ -759,6 +759,9 @@ input:checked + label:before {
   input:checked + label:before {
     transform: translateX(10px);
   }
+  .jogos{
+    min-height: 40vh;
+  }
 }
 @media (max-width:350px){
   #descricaoscratch>img{
@@ -779,6 +782,6 @@ input:checked + label:before {
   transform: translateX(10px);
 }
 .jogar{
-  width: 30vw;
+  min-width: 30vw;
 }
 }
